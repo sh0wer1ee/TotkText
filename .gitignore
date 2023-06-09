@@ -1,0 +1,13 @@
+# cache or config
+__pycache__
+.vscode
+
+# assets
+csv
+json
+msbt
+
+# test files
+out.json
+totk100_chs_cht_jp_en.json
+totk100_chs_cht_jp_en.xlsx
