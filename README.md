@@ -61,4 +61,4 @@ Huge. Intent=2.
 
 ### 2. unknown optcode
 
-Currently: ¯\\_(ツ)_/¯...https://github.com/sh0wer1ee/TotkText.git
+Currently: ¯\\_(ツ)_/¯...
