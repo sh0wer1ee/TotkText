@@ -19,13 +19,13 @@ Code based on [KinTamashii's MSBTEditorPro/msbt.py](https://github.com/KinTamash
   | without Ruby | with Ruby |
   |--|--|
   |貴様は リンクだな！<br><br>バナナに釣られて ノコノコここまで来るとは<br>聞いていた通り マヌケなヤツめ！|   <ruby>貴様<rt>きさま</rt></ruby>は リンクだな！<br><br>バナナに<ruby>釣<rt>つ<rt></ruby>られて ノコノコここまで<ruby>来<rt>く</rt></ruby>るとは<br><ruby>聞<rt>き</rt></ruby>いていた<ruby>通<rt>とお</rt></ruby>り マヌケなヤツめ！  |
-- Color Support
+- Color Support(saddly GitHub markdown doesn't support color attribute)
   |RegionCode| without Color | with Color |
   |--|--|--|
-  |CNzh|这是电池制造机。|这是<font color=red>电池制造机</font>。|
-  |JPja|こちらは バッテリー<ruby>製造機<rt>せいぞうき</rt></ruby>です|こちらは<font color=red> バッテリー<ruby>製造機<rt>せいぞうき</rt></ruby></font>です|
-  |TWzh|這是電池製造機。|這是<font color=red>電池製造機</font>。|
-  |USen|This is a crystal refinery.|This is a <font color=red>crystal refinery</font>.|
+  |CNzh|这是电池制造机。|这是\<font color=red>电池制造机\</font>。|
+  |JPja|こちらは バッテリー<ruby>製造機<rt>せいぞうき</rt></ruby>です|こちらは\<font color=red> バッテリー<ruby>製造機<rt>せいぞうき</rt></ruby>\</font>です|
+  |TWzh|這是電池製造機。|這是\<font color=red>電池製造機\</font>。|
+  |USen|This is a crystal refinery.|This is a \<font color=red>crystal refinery\</font>.|
 - Text Size Support
   |RegionCode| without Size | with Size |
   |--|--|--|
