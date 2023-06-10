@@ -150,4 +150,3 @@ def export_page(fdr: str):
 
 for fdr in folder:
     export_page(fdr)
-    exit()
