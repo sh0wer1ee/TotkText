@@ -1,0 +1,13 @@
+body {
+    background-color: #1d1d1d;
+  }
+p,li {
+    color: white;
+}
+table {
+    /* table-layout: fixed; */
+    width: 100%
+}
+caption {
+  color: rgb(186, 236, 186);
+}

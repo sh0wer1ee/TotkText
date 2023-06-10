@@ -13,6 +13,8 @@ Code based on [KinTamashii's MSBTEditorPro/msbt.py](https://github.com/KinTamash
 
 **WIP!!**.
 
+Here is the [Demo page](https://sh0wer1ee.github.io/TotkText/).
+
 ## Features (WIP!!!)
 
 - Furigana(振り仮名, a.k.a Ruby) support for `JPja`.
