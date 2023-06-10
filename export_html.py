@@ -47,9 +47,9 @@ def string2html(raw: str, region: str) -> str:
             if color == 'white':
                 proc = proc.replace("<Color=white>", "</font>")
             elif color == 'blue':
-                proc = proc.replace("<Color=grey>", "</font>")
+                proc = proc.replace("<Color=blue>", f"<font color=grey>")
             elif color == 'green':
-                proc = proc.replace("<Color=aqua>", "</font>")
+                proc = proc.replace("<Color=green>", f"<font color=aqua>")
             else:
                 proc = proc.replace(f"<Color={color}>", f"<font color={color}>")
     sizeList = re.findall(size_pattern, raw)
