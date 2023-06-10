@@ -13,11 +13,11 @@ Tags = {"System": {0: "Ruby", 1: "Font", 2: "Size", 3: "Color", 4: "PageBreak"}}
 Colors = {
     "#ffff": "white",
     "#0000": "red",
-    "#0100": "green",
-    "#0200": "blue",
-    "#0300": "gray",
-    "#0400": "lightgreen",  # #BBDDCC(I guess) in staffroll.
-    "#0500": "orange",
+    "#0100": "aqua",
+    "#0200": "grey",
+    "#0300": "orange",
+    "#0400": "lightgreen",  # (I guess) in staffroll.
+    "#0500": "orange", # existed but not used on text, orange in BOTW
 }
 
 # Unpack the Groups and Tags for later use.

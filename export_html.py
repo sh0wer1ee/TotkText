@@ -32,7 +32,7 @@ def string2html(raw: str, region: str) -> str:
 
     # most of the unk tags can be deleted
     # <unk[{group}:{tag}]> or <unk[{group}:{tag}:{attr}]>
-    unk_pattern = r"<unk\[[0-9]*[:]*[0-9]*[:]*[0-9 ]*\]>"
+    unk_pattern = r"<\/*unk\[[0-9]*[:]*[0-9]*[:]*[0-9 ]*\]>"
     proc = re.sub(unk_pattern, "", proc)
 
     # <PageBreak> tag can be replaced with just <br>
@@ -46,10 +46,6 @@ def string2html(raw: str, region: str) -> str:
         for color in colorList:
             if color == 'white':
                 proc = proc.replace("<Color=white>", "</font>")
-            elif color == 'blue':
-                proc = proc.replace("<Color=blue>", f"<font color=grey>")
-            elif color == 'green':
-                proc = proc.replace("<Color=green>", f"<font color=aqua>")
             else:
                 proc = proc.replace(f"<Color={color}>", f"<font color={color}>")
     sizeList = re.findall(size_pattern, raw)
