@@ -7,7 +7,5 @@ csv
 json
 msbt
 
-# test files
-out.json
 totk100_chs_cht_jp_en.json
-totk100_chs_cht_jp_en.xlsx
+totk121_chs_cht_jp_en.json

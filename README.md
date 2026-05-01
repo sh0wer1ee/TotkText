@@ -4,7 +4,7 @@ An **experimental** website lists the text dump from *The Legend of Zelda: Tears
 
 Code based on [KinTamashii's MSBTEditorPro/msbt.py](https://github.com/KinTamashii/MSBTEditorPro).
 
-- Version: `1.0.0`
+- Version: `1.2.1`
 - Language Region Code Supported:
   - `CNzh`: simpilifed Chinese 
   - `TWzh`: traditional Chinese
@@ -47,20 +47,3 @@ Here is the [Demo page](https://sh0wer1ee.github.io/TotkText/).
 - [ ] Design a proper UI for text dump listing website.
 - [ ] And more.
 
-## Json
-
-Huge. Intent=2.
-
-## Memo
-
-### 1. csv delimiter
-
-- `,` is absolutely forbidden since it is widen used in `USen` localization.
-- `\t` also appeared in `USen` localization.
-- How about `|`?
-- ...(researching)
-- **JSON** format may be recommended.
-
-### 2. unknown optcode
-
-Currently: ¯\\_(ツ)_/¯...
